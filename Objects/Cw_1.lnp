@@ -5,6 +5,7 @@
 ".\objects\main.o"
 ".\objects\klaw.o"
 ".\objects\uart0.o"
+".\objects\led.o"
 ".\objects\startup_mkl05z4.o"
 ".\objects\system_mkl05z4.o"
 --strict --scatter ".\Objects\Cw_1.sct"
