@@ -30,7 +30,7 @@ I (C:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cms
 I (C:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F9F3E)
 I (C:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\system_MKL05Z4.h)(0x55FBBCD8)
 I (i2c.h)(0x63CEE023)
-F (.\main.c)(0x63CF1DD2)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_KL05Z-IC:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0-D__UVISION_VERSION="529" -D_RTE_ -DMKL05Z32xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x63CF2A78)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_KL05Z-IC:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0-D__UVISION_VERSION="529" -D_RTE_ -DMKL05Z32xxx4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BD06A)
 I (C:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F9F3E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
@@ -48,7 +48,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
 I (uart0.h)(0x63CF0C36)
 I (led.h)(0x63CC4B96)
-F (.\klaw.c)(0x63CF1672)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_KL05Z-IC:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0-D__UVISION_VERSION="529" -D_RTE_ -DMKL05Z32xxx4-o .\objects\klaw.o --omf_browse .\objects\klaw.crf --depend .\objects\klaw.d)
+F (.\klaw.c)(0x63CF20EC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_KL05Z-IC:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include-IC:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0-D__UVISION_VERSION="529" -D_RTE_ -DMKL05Z32xxx4-o .\objects\klaw.o --omf_browse .\objects\klaw.crf --depend .\objects\klaw.d)
 I (klaw.h)(0x63CF165C)
 I (C:\Users\PKier\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL05Z4.h)(0x585BD06A)
 I (C:\Users\PKier\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F9F3E)

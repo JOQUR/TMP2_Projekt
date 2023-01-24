@@ -11,7 +11,7 @@ void Klaw_Init(void)
 void Klaw_S1(void)
 {
 	PORTA -> PCR[S2] |= PORT_PCR_IRQC(0xa);		//0x8 - poziom "0"; 0x9 - zbocze narastające; 0xa - zbocze opadające; 0xb - obydwa zbocza
-	PORTA -> PCR[S2] |= PORT_PCR_IRQC(0xa);
+	PORTA -> PCR[S3] |= PORT_PCR_IRQC(0xa);
 	NVIC_ClearPendingIRQ(PORTA_IRQn);
 	NVIC_EnableIRQ(PORTA_IRQn);
 }
