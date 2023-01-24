@@ -2,14 +2,14 @@
 /************************************************************************
 *	Includes
 ************************************************************************/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "MKL05Z4.h"
 #include "ADC.h"
 #include "klaw.h"
 #include "frdm_bsp.h"
 #include "lcd1602.h"
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 #include "uart0.h"
 #include "led.h"
 /************************************************************************/
@@ -53,8 +53,9 @@ static uint8_t rx_buf_pos=0;
 ************************************************************************/
 static void send(char* data, uint8_t* size);
 static void setDiodes(float* var);
-static inline void setGR(void);
 
+
+static inline void setGR(void);
 static inline void setRED(void);
 static inline void setGR(void);
 static inline void setBLUE(void);
@@ -97,7 +98,7 @@ void PORTA_IRQHandler(void)
 	NVIC_ClearPendingIRQ(PORTA_IRQn);
 }
 
-void UART0_IRQHandler()
+void UART0_IRQHandler(void)
 {
 	if(UART0->S1 & UART0_S1_RDRF_MASK)
 	{
@@ -126,7 +127,7 @@ void UART0_IRQHandler()
 	}
 }
 
-void ADC0_IRQHandler()
+void ADC0_IRQHandler(void)
 {	
 	temp = ADC0->R[0];	
 	if(!wynik_ok)				
